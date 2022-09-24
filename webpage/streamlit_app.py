@@ -1,7 +1,7 @@
 from PIL import Image
 import requests
 import streamlit as st
-from streamlit_lottie as st_lottie
+from streamlit_lottie import st_lottie
 st.set_page_config(page_title="My Webpage", page_icon=":smile:", layout="wide")
 
 def load_lottieurl(url):
