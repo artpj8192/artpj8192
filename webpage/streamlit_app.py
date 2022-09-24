@@ -1,7 +1,6 @@
 from PIL import Image
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
 st.set_page_config(page_title="My Webpage", page_icon=":smile:", layout="wide")
 
 def load_lottieurl(url):
@@ -38,7 +37,7 @@ with st.container():
         )
         st.write("[My Project>](https://www.youtube.com/playlist?list=PLwvmhtXiU1SXjRpc7dfMD5i5Y9388KP1a)")
     with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
+        streamlit_lottie(lottie_coding, height=300, key="coding")
 
 #Project
 with st.container():
